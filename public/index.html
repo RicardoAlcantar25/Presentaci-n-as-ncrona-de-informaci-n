@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presentación Asíncrona de Información</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <main class="contenedor">
+        <h1>Consulta Asíncrona de Productos</h1>
+        <p>Haz clic en el botón para cargar la información desde el servidor sin recargar la página.</p>
+
+        <input type="text" id="buscador" placeholder="Buscar producto..."
+            style="display: none; padding: 10px; margin-bottom: 10px; border-radius: 5px; border: 1px solid #ccc; width: 80%; max-width: 300px;">
+        <br>
+
+        <button id="btnCargar">Cargar productos</button>
+
+        <div id="mensaje" class="mensaje"></div>
+        <section id="listaProductos" class="grid-productos"></section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
